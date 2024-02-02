@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="Home.css">
+</head>
+<body>
+<p><nav id="navbar">
+	<ul id="nav-punkte">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="suche.html">Suche</a></li>
+		</ul>
+	</nav>
+</p>
+<p>
+
+</p>
+</body>
+</html>
