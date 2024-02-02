@@ -6,6 +6,7 @@
 <p><nav id="navbar">
 	<ul id="nav-punkte">
 		<li><a href="Home.html">Home</a></li>
+		<li><a href="Kinderbereich.html">Kinderbereich</a></li>
 		<li><a href="suche.html">Suche</a></li>
 		</ul>
 	</nav>
