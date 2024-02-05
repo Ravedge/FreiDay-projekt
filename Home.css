@@ -1,0 +1,36 @@
+body {
+	background: #ffffff;
+	}
+p {
+	color:#000000;
+	}
+h1 {
+     color:#000000;
+     background-color:#ffffff;
+     border-radius: .5em;
+     }
+a {
+     color:#1c86ee;
+     }
+button {
+         background-color: #000000;
+         }
+#navbar {
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: ##000000;
+
+}
+#nav-punkte {
+width: 300px;
+list-style: none;
+display: flex;
+justify-content: space-around;
+
+}
+.nav-links {
+text-decoration: none;
+color: #ffffff;
+
+}
