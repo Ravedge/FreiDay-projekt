@@ -1,3 +1,7 @@
 # FreiDay-projekt
 
-Ich mache ersteinmal die Home seite
+Leopold: Home, Grundschule, Deutsche Fassung
+
+Haya: Suche, Englische Fassung
+
+Caitlin: Kinder, Weiterführende, Deutsche Fassung
