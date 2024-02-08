@@ -1,6 +1,6 @@
 # FreiDay-projekt
 
-Leopold: Home, Grundschule, Deutsche Fassung, Home.css
+Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur
 
 Haya: Suche, Englische Fassung, suche.css
 
