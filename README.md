@@ -1,14 +1,14 @@
 # FreiDay-projekt
 
-Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur
+<li>Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur</li>
 
-Haya: Suche, Englische Fassung, suche.css
+<li>Haya: Suche, Englische Fassung, suche.css</li>
 
-Caitlin: Kinder, Weiterführende, Deutsche Fassung
+<li>Caitlin: Kinder, Weiterführende, Deutsche Fassung</li>
 
-noch offen(schreibt euren namen hinter wenn ihr interesse habt):
+Noch offen(schreibt euren namen hinter wenn ihr interesse habt):
 
-zeichnungen(Grafik für den Kinder bereich)
+Zeichnungen(Grafik für den Kinder bereich)
 
 <h2> Aufgaben </h2>
  <li> mathe -Leopold-</li>
