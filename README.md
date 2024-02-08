@@ -11,7 +11,7 @@ Noch offen(schreibt euren namen hinter wenn ihr interesse habt):
 Zeichnungen(Grafik für den Kinder bereich)
 
 <h2> Aufgaben </h2>
- <li> mathe -Leopold-</li>
+ <li> mathe -Leopold-Haya-</li>
   <li> englisch - Haya-</li>
   <li> Deutsch -</li>
   <li> Geo -</li>
