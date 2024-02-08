@@ -1,6 +1,6 @@
 # FreiDay-projekt
 
-<li>Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur</li>
+<li>Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
 
 <li>Haya: Suche, Englische Fassung, suche.css</li>
 
