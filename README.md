@@ -11,8 +11,8 @@
 Zeichnungen(Grafik für den Kinder bereich)
 
 <h2> Aufgaben </h2>
- <li> mathe -Leopold-Haya-</li>
-  <li> englisch - Haya-</li>
+ <li> Mathe -Leopold-Haya-</li>
+  <li> Englisch - Haya-</li>
   <li> Deutsch -</li>
   <li> Geo -</li>
   <li> Bio -</li>
