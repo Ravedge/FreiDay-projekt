@@ -4,6 +4,7 @@ Struktur:
 <html>
 <head>
 <link rel="stylesheet" href="Home.css">
+<title></title>
 </head>
 <body>
 <p><nav id="navbar">
