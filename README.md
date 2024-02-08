@@ -10,9 +10,9 @@ noch offen(schreibt euren namen hinter wenn ihr interesse habt):
 
 zeichnungen(Grafik für den Kinder bereich)
 
-Aufgaben
+<h2> Aufgaben </h2>
  <li> mathe -Leopold-</li>
-  <li> englisch - Haya</li>
+  <li> englisch - Haya-</li>
   <li> Deutsch -</li>
   <li> Geo -</li>
   <li> Bio -</li>
