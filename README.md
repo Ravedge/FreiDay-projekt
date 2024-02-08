@@ -23,7 +23,7 @@ Aufgaben
   WiPo -Leopold-
   Physik -Leopold-
   Chemie -Leopold-
-  Musik -Niemand-
+  Musik -
   
 
 
