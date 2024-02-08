@@ -11,19 +11,19 @@ noch offen(schreibt euren namen hinter wenn ihr interesse habt):
 zeichnungen(Grafik für den Kinder bereich)
 
 Aufgaben
- <li> mathe -Leopold-
-  englisch -
-  Deutsch -
-  Geo -
-  Bio -
-  Latein -
-  (Französisch) -
-  Geschichte -
-  Informatik -Leopold-
-  WiPo -Leopold-
-  Physik -Leopold-
-  Chemie -Leopold-
-  Musik -</li>
+ <li> mathe -Leopold-</li>
+  <li> englisch -</li>
+  <li> Deutsch -</li>
+  <li> Geo -</li>
+  <li> Bio -</li>
+  <li> Latein -</li>
+  <li> (Französisch) -</li>
+  <li> Geschichte -</li>
+ <li>  Informatik -Leopold-</li>
+  <li> WiPo -Leopold-</li>
+  <li> Physik -Leopold-</li>
+ <li>  Chemie -Leopold-</li>
+  <li> Musik -</li>
   
 
 
