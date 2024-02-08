@@ -12,7 +12,7 @@ zeichnungen(Grafik für den Kinder bereich)
 
 Aufgaben
  <li> mathe -Leopold-</li>
-  <li> englisch -</li>
+  <li> englisch - Haya</li>
   <li> Deutsch -</li>
   <li> Geo -</li>
   <li> Bio -</li>
