@@ -6,7 +6,7 @@
 
 <li>Caitlin: Kinder, Weiterführende, Deutsche Fassung</li>
 
-Noch offen(schreibt euren namen hinter wenn ihr interesse habt):
+<h3>Noch offen(schreibt euren namen hinter wenn ihr interesse habt):</h3>
 
 Zeichnungen(Grafik für den Kinder bereich)
 
