@@ -11,7 +11,7 @@ noch offen(schreibt euren namen hinter wenn ihr interesse habt):
 zeichnungen(Grafik für den Kinder bereich)
 
 Aufgaben
-  mathe -Leopold-
+ <li> mathe -Leopold-
   englisch -
   Deutsch -
   Geo -
@@ -23,7 +23,7 @@ Aufgaben
   WiPo -Leopold-
   Physik -Leopold-
   Chemie -Leopold-
-  Musik -
+  Musik -</li>
   
 
 
