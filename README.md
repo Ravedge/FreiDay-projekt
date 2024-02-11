@@ -13,7 +13,7 @@ Zeichnungen(Grafik für den Kinder bereich)
 <h2> Aufgaben </h2>
  <li> Mathe -Leopold-Haya-</li>
   <li> Englisch - Haya-</li>
-  <li> Deutsch -</li>
+  <li> Deutsch - Caitlin-</li>
   <li> Geo -</li>
   <li> Bio -</li>
   <li> Latein -</li>
