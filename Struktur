@@ -22,8 +22,8 @@ Struktur:
 </p>
 <footer>
     <ul>
-  <li><a href="Kontakt.html"><h3>Kontakt</h3></a></li>
-  <li><a href="Newsletter.html"><h3>Newsletter</h3></a></li>
+  <li><a href="Kontakt.html">Kontakt</a></li>
+	<li><a href="Datenschutz.html">Datenschutz</a></li>
   </ul>
   </footer>
 </body>
