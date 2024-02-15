@@ -4,13 +4,12 @@
 
 <li>Haya: Suche, Englische Fassung, suche.css, Struktur</li>
 
-<li>Caitlin: Kinder, Weiterführende, Deutsche Fassung</li>
+<li>Caitlin: Kontakt, Kinder, Weiterführende, Deutsche Fassung</li>
 
 <h3>Noch offen (schreibt euren namen hinter wenn ihr interesse habt):</h3>
 
 Zeichnungen(Grafik für den Kinder bereich)
 Datenschutz
-Kontakt
 
 <h2> Aufgaben </h2>
  <li> Mathe -Leopold-Haya-</li>
