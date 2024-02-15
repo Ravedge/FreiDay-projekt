@@ -16,21 +16,23 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #374f3e;
 }
+
 li {
-  display: inline;
-}
- li {
   float: left;
 }
 
-a {
+li a {
   display: block;
-  padding: 8px;
-  background-color: #dddddd;
-}
-ul {
-  background-color: #dddddd;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
+li a:hover {
+  background-color: #374f3e;
+}
 
