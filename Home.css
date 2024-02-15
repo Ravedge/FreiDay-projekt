@@ -50,7 +50,7 @@ header{
     display:block;
     text-align: center;
     text-decoration: none;
-    font-family: var(--Fleur);
+    font-family: var(--Monserrat);
     letter-spacing: 1px;
 }
 .navbar-nav {
@@ -92,11 +92,11 @@ a:visited {
 }
 .banner-title{
     font-size: 3rem;
-    font-family: var(--Fleur);
+    font-family: var(--Monserrat);
     line-height: 1.2;
 }
 .banner-title span{
-    font-family: var(--Fleur);
+    font-family: var(--Monserrat);
     color: var(--exDark);
 }
 .banner p{
