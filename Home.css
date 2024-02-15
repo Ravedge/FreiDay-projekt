@@ -12,7 +12,27 @@ h1 {
 a {
      color:#1c86ee;
      }
-     
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+ li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+ul {
+  background-color: #dddddd;
+}
+
 #navbar {
 display: flex;
 align-items: center;
