@@ -33,22 +33,4 @@ ul {
   background-color: #dddddd;
 }
 
-#navbar {
-display: flex;
-align-items: center;
-justify-content: space-around;
-background-color: ##000000;
 
-}
-#nav-punkte {
-width: 300px;
-list-style: none;
-display: flex;
-justify-content: space-around;
-
-}
-.nav-links {
-text-decoration: none;
-color: #ffffff;
-
-}
