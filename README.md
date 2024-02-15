@@ -1,14 +1,14 @@
 # FreiDay-projekt
 
-<li>Leopold: Home, Grundschule, Deutsche Fassung, Home.css, Struktur, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
+<li>Leopold: Kontakt, Home, Grundschule, Deutsche Fassung, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
 
-<li>Haya: Suche, Englische Fassung, suche.css, Struktur</li>
+<li>Haya: Suche, Englische Fassung, suche.css, Home.css, Struktur</li>
 
-<li>Caitlin: Kontakt, Kinder, Weiterführende, Deutsche Fassung</li>
+<li>Caitlin: Kinder, Weiterführende, Deutsche Fassung</li>
 
 <h3>Noch offen (schreibt euren namen hinter wenn ihr interesse habt):</h3>
 
-Zeichnungen(Grafik für den Kinder bereich)
+Zeichnungen(Grafik für den Kinder bereich) Caitlin
 Datenschutz
 
 <h2> Aufgaben </h2>
