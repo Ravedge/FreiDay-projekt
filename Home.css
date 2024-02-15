@@ -17,7 +17,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #374f3e;
+  background-color: #2c2e2d;
+	opacity: 0.2; 
 }
 
 li {
@@ -28,11 +29,11 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 22px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: #374f3e;
+  background-color: #2c2e2d;
 }
 
