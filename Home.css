@@ -184,3 +184,8 @@ text-transform: uppercase;
 h3 {
     text-align: center;
 }
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
