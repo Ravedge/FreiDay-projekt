@@ -188,6 +188,7 @@ h3 {
 .footer {
     display: flex;
     flex-direction: row;
-    
+    align-content: center;
+    align-content: space around;
     justify-content: center;
 }
