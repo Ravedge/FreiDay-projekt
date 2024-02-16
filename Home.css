@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredoka:wght@300..700&display=swap');
 :root{
     --Playfair: "Playfair Display", serif;
@@ -12,8 +10,6 @@
     padding: 0;
     margin: 0;
     --Neonderthaw: "Neonderthaw", cursive;
-    --Vujahday: "Vujahday Script", cursive;
-    --Licorice: "Licorice", cursive;
     --Fredoka: "Fredoka", cursive;
 }
 body{
@@ -81,7 +77,7 @@ a:visited {
     display: block;
 }
 .navbar-nav{
-    font-family: var(--Vujahday);
+    font-family: var(--Fredoka);
     font-weight: 500;
     color: white;
     text-decoration: white;
