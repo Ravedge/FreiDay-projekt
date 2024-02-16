@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Licorice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredoka:wght@300..700&display=swap');
 :root{
     --Playfair: "Playfair Display", serif;
     --Monserrat: "Monserrat", sans-serif;
@@ -48,7 +48,7 @@ header{
     display:block;
     text-align: center;
     text-decoration: none;
-    font-family: var(--Fleur);
+    font-family: var(--Fredoka);
     letter-spacing: 1px;
 }
 .navbar-nav{
@@ -108,11 +108,11 @@ a:visited {
 }
 .banner-title{
     font-size: 3rem;
-    font-family: var(--Fleur);
+    font-family: var(--Fredoka);
     line-height: 1.2;
 }
 .banner-title span{
-    font-family: var(--Fleur);
+    font-family: var(--Fredoka);
     color: var(--exDark);
 }
 .banner p{
