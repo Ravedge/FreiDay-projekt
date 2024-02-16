@@ -75,6 +75,7 @@ a:visited {
 .nav-item{
     color: white;
     display: block;
+    content-align: left;
 }
 .navbar-nav{
     font-family: var(--Fredoka);
