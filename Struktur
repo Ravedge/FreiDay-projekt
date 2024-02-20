@@ -67,10 +67,8 @@
 
 </p>
 <footer>
-    <ul>
-  <li><a href="Kontakt.html">Kontakt</a></li>
-	<li><a href="Datenschutz.html">Datenschutz</a></li>
-  </ul>
+<a href="Kontakt.html">Kontakt</a>
+<a href="Datenschutz.html">Datenschutz</a>
   </footer>
 </body>
 </html>
