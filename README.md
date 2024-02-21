@@ -1,6 +1,6 @@
 # FreiDay-projekt
 
-<li>Leopold: Kontakt, Home, Grundschule, Home.css, Deutsche Fassung, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
+<li>Leopold: Kontakt, Home, Grundschule, normalLernenGrund.html, Deutsche Fassung, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
 
 <li>Haya: Suche, Englische Fassung, suche.css, Struktur</li>
 
@@ -10,6 +10,8 @@
 
 Zeichnungen(Grafik für den Kinder bereich) Caitlin
 Datenschutz
+interaktivGrundschule.html
+Tests.html
 
 <h2> Aufgaben </h2>
  <li> Mathe -Leopold-Haya-</li>
