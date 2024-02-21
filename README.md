@@ -8,10 +8,10 @@
 
 <h3>Noch offen (schreibt euren namen hinter wenn ihr interesse habt):</h3>
 
-Zeichnungen(Grafik für den Kinder bereich) Caitlin
-Datenschutz
-interaktivGrundschule.html
-Tests.html
+Zeichnungen(Grafik für den Kinder bereich) Caitlin<b>
+Datenschutz<b>
+interaktivGrundschule.html<b>
+Tests.html<b>
 
 <h2> Aufgaben </h2>
  <li> Mathe -Leopold-Haya-</li>
