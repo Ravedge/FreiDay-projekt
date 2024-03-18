@@ -1,25 +1,11 @@
 'use strict';
-	// start quiz with a start button
-functionname(start){
-	start: function (start) {
-		var t = this;
-		// fill list of remaining quiz questions
-		t.questions = [];
-		t.data.forEach(function (o) {
-			t.questions.push(o);
-		});
-		t.shuffleArray(t.questions);
-		t.currentChoices = [];
-		t.currentQuestion = null;
-		// install start button
-		t.intoContainer(t.createElement({
-			className: "startBtn",
-			tag: "button",
-			text: "Starte 1.Klasse Allgemeinwissen"
-		}), "p");
-	}
-};
-	myQuiz.init();
+}
+function start
+nextButton.classList.add ("hide");
+while (answerButtons.firstChild) {
+answerButtons.removeChild; (answerButtons.firstChild);
+	
+  myQuiz.init();
 var myQuiz = {
 	container: null,
 	// helper function
@@ -123,7 +109,7 @@ var myQuiz = {
 		while (t.container.firstChild) {
 			t.container.removeChild(t.container.firstChild);
 		}
-	},
+	},]
 	handleInput: function () {
 		var t = this, // t points to myQuiz
 			// create real array so we can use forEach
