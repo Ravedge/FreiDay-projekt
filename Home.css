@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredoka:wght@300..700&display=swap');
+@import url(css/bootstrap.css);
 :root{
     --Playfair: "Playfair Display", serif;
     --Monserrat: "Monserrat", sans-serif;
@@ -12,6 +13,70 @@
     --Neonderthaw: "Neonderthaw", cursive;
     --Fredoka: "Fredoka", cursive;
 }
+
+.top{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://images.pexels.com/photos/4219040/pexels-photo-4219040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.intro{
+    padding: 6rem;
+    font-family: var(--Fredoka);
+    font-size: 2.4rem;
+    text-align: left;
+    padding-left: 9vh;
+}
+.intro h5{
+    padding-left: 20vh;
+}
+/*the navbar + the whole sign up and motto screen*/
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    width: 25%;
+    height: 25%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    padding-top: 6vh;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 14px;
+    position: relative;
+    font-family: var(--Fredoka);
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: dotted;
+    font-size: 14px;
+    font-family: var(--Fredoka);
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #b692c7;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
 body{
     line-height:1.4;
     color: var(--dark);
@@ -20,194 +85,216 @@ body{
 body::-webkit-scrollbar{
     display: none;
 }
-img{
-    width: 100%;
-    display: block;
-}
-.container{
-.container-fluid;
-}
-header{
-    min-height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://bidroom.com/blog/wp-content/uploads/2018/11/Untitled-design-51.png") center/cover no-repeat fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: stretch;
-}
-.navbar{
-    background: rgba(0,0,0,0.6);
-    padding: 1.2rem;
-}
-.navbar-brand{
-    color:#fff;
-    font-size: 2rem;
-    display:block;
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
-    text-decoration: none;
     font-family: var(--Fredoka);
-    letter-spacing: 1px;
 }
-.navbar-nav{
-    padding: 0.8rem 0 0.2rem 0;
-    opacity: 0.7;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    text-align: center;
-    color: #fff;
+.text-box h1{
+    font-size: 62px;
 }
-a:link {
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
     color: white;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: white;
-    background-color: transparent;
-    text-decoration: none;
+    font-family: var(--Fredoka);
 }
 
-.design-title a:visited {
-    color: black;
-    background-color: transparent;
+/*the sign up button*/
+
+.hero-btn{
+    display: inline-block;
     text-decoration: none;
-}
-.nav-item{
     color: white;
-    display: block;
-    content-align: left;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
-.navbar-nav{
-    font-family: var(--Fredoka);
-    font-weight: 500;
+.hero-btn:hover{
+    border: 1px solid #b692c7;
+    background: #b692c7;
+    transition: 1s;
+    text-decoration: none;
     color: white;
-    text-decoration: white;
-    padding: 0.4rem 0.1rem;
-    transition: opacity 0.5s ease;
-    word-spacing: normal;
-    list-style: linear-gradient(white, white);
 }
-.navbar-nav a:hover{
-    opacity: 0.7;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+nav .fa{
+    display: none;
+}
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+    .nav-links ul li{
+
+    }
+    .nav-links{
+        position: absolute;
+        background: #b692c7;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav .fa{
+        display: block;
+        color: white;
+        font-size: 22px;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+    .row{
+        flex-direction: column;
+    }
+}
+/*kurse*/
+.Kurse{
+    font-family: var(--Fredoka);
+    width: 80%;
+    margin: auto;
     text-align: center;
-    text-emphasis-color: white;
+    padding-top: 100px;
+
 }
-.banner{
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+h1{
+    font-size: 36px;
+    font-weight: 600;
     text-align: center;
-    color: #fff;
 }
-.banner-title{
-    font-size: 3rem;
-    font-family: var(--Fredoka);
-    line-height: 1.2;
-}
-.banner-title span{
-    font-family: var(--Fredoka);
-    color: var(--exDark);
-}
-.banner p{
-    padding: 1rem 0 2rem 0;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    font-family: var(--Fredoka);
+
+p{
+    color: rgb(126, 126, 126);
+    font-size: 18px;
     font-weight: 300;
-    word-spacing: 5px;
+    line-height: 22px;
+    padding: 10px;
 }
-.banner p span{
-    color: var(--exDark);
-}
-.banner form{
-    background: #fff;
-    border-radius: 2rem;
-    padding: 0.6rem 1rem;
+.row{
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
-.design-content {
-    width: 400px;
-    height: auto;
+.course-col1 {
+    flex-basis: 31%;
+    background: #796581;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-decoration: none;
 }
-.design{
-    padding: 4.5rem 0;
+.course-col2 {
+    flex-basis: 31%;
+    background: #6b978c;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-decoration: none;
 }
-.title{
+.course-col3 {
+    flex-basis: 31%;
+    background-color: #5a7285; /* Just for visualization */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.course-col1 h3,
+.course-col2 h3,
+.course-col3 h3 {
+    color: white;
     text-align: center;
-    padding: 1rem  0;
+    text-decoration: none;
 }
-.title h2{
-    font-family: var(--Playfair);
-    font-size: 2.4rem;
-    text-align: left;
+
+.course-col1 p,
+.course-col2 p,
+.course-col3 p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
 }
-.title p{
-text-transform: uppercase;
-    padding: 0.6rem 0;
-    text-align: left;
+
+.course-col1:hover,
+.course-col2:hover,
+.course-col3:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
+    text-decoration: none;
 }
-.design-content{
-    margin: 2rem 0;
+
+/*über uns*/
+
+.überuns{
+    font-family: var(--Fredoka);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
-.design-item{
-    cursor: pointer;
-    margin: 1.5rem 0;
-}
-.design-img{
+.überuns-col1,
+.überuns-col2,
+.überuns-col3{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.wrapper {
-    width:600px;
-    margin: 0 auto;
+.überuns-col1 img,
+.überuns-col2 img,
+.überuns-col3 img{
+    width: 100%;
+    display: block;
 }
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: #b692c7c2;
 
-#block1 {
-    float:left;
-    background-color: #F5F5F5;
-    margin: 10px 20px;
-    padding: 20px;
-    width: 180px;
 }
-
-#block2 {
-    float:right;
-    background-color: #F5F5F5;
-    margin: 10px 20px;
-    padding: 20px;
-    width: 180px;
+.layer h3{
+    opacity: 0;
+    width: 100%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    transition: 0.5s;
 }
-h3 {
-    text-align: center;
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
-
-.footer {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-      row-gap: 10px;
-}
-
-.middle {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-      row-gap: 10px;
-}
-
-h1 {
-	background: #f1f3f4 none repeat scroll 0 0 !important;
-	padding: 1rem !important;
-}
-
-//quiz start//
+/*quiz start*/
 
 #quiz ul {
 	list-style: none;
@@ -291,4 +378,4 @@ h1 {
 	border-collapse: collapse;
 	text-align: center;
 }
-//quiz ende//
+/*quiz ende*/
