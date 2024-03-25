@@ -9,74 +9,109 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
 <link rel="stylesheet" href="Home.css">
 <title>NoBrainer</title>
 </head>
 <body>
-<p><nav id="navbar">
-	<header>
-    <nav class="navbar">
-        <div class="container">
-            <a href="" class="navbar-brand">NoBrainer</a>
-            <div class="navbar-nav">
-                <ul class="nav nav-tabs">
-                    <li class="nav-item">
-                        <ul class="nav justify-content-end">
-                            <div class="row mx-sm-n4">
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="">Home</a>
-                                    </li>
-                                </div></div>
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="">Kinderbereich</a>
-                                    </li>
-                                </div></div>
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="">Grundschulbereich</a>
-                                    </li>
-                                </div></div>
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="">Weiterführende Schule</a>
-                                    </li>
-                                </div></div>
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="">Kontakt</a>
-                                    </li>
-                                </div></div>
-                                <div class="col px-sm-3"><div class="p-3 border-dark bg-opacity-100">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="">Suche</a>
-                                    </li>
-                                </div></div>
-                        </ul>
+    <section class="top">
+        <nav>
+            <section class="Logo">
+            <a href="Home.html"><img src="https://i.postimg.cc/nhPWBPNP/Logo.png"></a>
+            </section>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="überuns.html">ÜBER UNS</a></li>
+                    <li><a href="kurse.html">KURSE</a></li>
+                    <li><a href="kontakt.html">KONTAKT</a></li>
+                </ul>
             </div>
-        </div>
-    </nav>
-<section>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
 
+    <div class="text-box">
+        <h1>Lernen auf die Art und Weise, die du am besten kannst.</h1>
+        <p>Angefangen in der Grundschule, bis hin zu Fortgeschrittenen Themen.</p>
+        <a href="anmelde.html" class="hero-btn">Melde Dich An</a>
+    </div>
+    </section>
+
+
+
+<!--Unsere Kurse-->
+<section class="Kurse">
+    <h1>Unsere angebotenen Kurse</h1>
+    <p>Entdecke vielfältige, qualitativ hochwertige Kurse, um dein Potenzial freizusetzen.</p>
+    
+    <div class="row">
+        <div class="course-col1">
+            <h3>Grundschulkurs</h3>
+            <p>Lesefähigkeiten und Rechtschreibung in Deutsch, grundlegende 
+                mathematische Konzepte wie Addition und Subtraktion in 
+                Mathematik sowie grundlegendes Wissen über Natur, Umwelt und
+                 Gesellschaft in Sachkunde.</p>
+        </div>
+        <div class="course-col2">
+            <h3>Mittelstufenkurs</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aperiam quis commodi incidunt aut ipsum, at cum ut repellendus neque nam, dicta delectus officiis consectetur magni, hic repudiandae. Sit, corrupti.</p>
+        </div>
+        <div class="course-col3">
+            <h3>Oberstufenkurs</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat esse eligendi tenetur quas aliquam consequatur totam delectus ipsum? Fugiat sit accusamus perspiciatis officiis architecto illum ut quas quidem corrupti.</p>
+        </div>
+    </div>
 </section>
 
-	
-</p>
-<p>
-  <h3>Herzlich Willkommen auf unserer Webseite NoBrainer!</h3>
-	<b>
-  Hier wird Lernen auf die Art und Weise gefördert, die du am besten kannst.
-  Wir stellen Material zum Auswendiglernen, aber auch interaktive Aufgaben zum Lernen und Vertiefen.
-   <b>
-    Angefangen in der Grundschule, wo man das Uhrlesen und die Anfänge aller großen Themen lernt,
-    bis hin zu Fortgeschrittenen Themen, wie den Quadratischen Gleichungen in Mathe und der Analyse von Texten und Gedichten in Deutsch.
-</p>
+
+
+
+<!--über uns-->
+<section class="überuns">
+    <h1>Das Team von NoBrainer</h1>
+    <p>Ein Blick auf die Ersteller der Website.</p>
+
+    <div class="row">
+        <div class="überuns-col1">
+            <img src="https://static.thenounproject.com/png/1729157-200.png">
+            <div class="layer">
+                <h3>CAITLIN</h3>
+            </div>
+        </div>
+        <div class="überuns-col3">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/free-web-development-1815631-1740054.png">
+            <div class="layer">
+                <h3>LEOPOLD</h3>
+            </div>
+        </div>
+        <div class="überuns-col3">
+            <img src="https://cdn-icons-png.freepik.com/512/3159/3159310.png">
+            <div class="layer">
+                <h3>HAYA</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--footer-->
 		<div class="footer"> 
 <footer>  
   <a href="Kontakt.html">Kontakt</a>
 	<a href="Datenschutz.html">Datenschutz</a>
   </footer>
 		</div>
+<!-------JavaScript for Toggle Menu------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
 </body>
 </html>
