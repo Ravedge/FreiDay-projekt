@@ -298,7 +298,8 @@ p{
 /*footer*/
 
 .footer{
-    border: ;
+    border: 5vh
+    color: #000000;
 }
 
 /*quiz start*/
