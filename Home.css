@@ -417,13 +417,13 @@ p{
 }
 
 #quiz label:hover {
-	background-color: #dfac20;
+	background-color: #685d5d;
 }
 
 #quiz input:checked ~ label,
 #quiz input:focus ~ label {
-	background-color: #dfac20;
-	border-color: #866a00;
+	background-color: #ffffff;
+	border-color: #000000;
 }
 
 #quiz input {
