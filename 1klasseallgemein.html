@@ -64,34 +64,60 @@
 	
 </p>
 <div id="quiz-container">
-    <h1>Multiple Choice Quiz</h1>
+    <h1>Allgemeinwissen Klasse 1</h1>
     <div id="question"></div>
     <div id="options"></div>
+    <input type="text" id="answer" style="display: none;">
     <button id="submit">Submit</button>
     <p id="result"></p>
 </div>
 <script src="script.js">
-	const quizData = [
+const quizData = [
     {
         question: "What is the capital of France?",
+        type: "multiple_choice",
         options: ["Paris", "London", "Berlin", "Rome"],
         answer: "Paris"
     },
     {
         question: "What is 2 + 2?",
+        type: "multiple_choice",
         options: ["3", "4", "5", "6"],
         answer: "4"
     },
     {
         question: "Who wrote 'Romeo and Juliet'?",
+        type: "multiple_choice",
         options: ["Shakespeare", "Dickens", "Twain", "Hemingway"],
         answer: "Shakespeare"
+    },
+    {
+        question: "What is the largest planet in our solar system?",
+        type: "multiple_choice",
+        options: ["Jupiter", "Saturn", "Earth", "Mars"],
+        answer: "Jupiter"
+    },
+    {
+        question: "What is the powerhouse of the cell?",
+        type: "multiple_choice",
+        options: ["Nucleus", "Mitochondria", "Ribosome", "Endoplasmic Reticulum"],
+        answer: "Mitochondria"
+    },
+    {
+        question: "What is the capital of Italy?",
+        type: "text",
+        answer: "Rome"
+    },
+    {
+        question: "Name a programming language.",
+        type: "text",
+        answer: "JavaScript"
     }
 ];
 
 const quizContainer = document.getElementById("quiz-container");
 const questionElement = document.getElementById("question");
-const optionsElement = document.getElementById("options");
+const answerInput = document.getElementById("answer");
 const submitButton = document.getElementById("submit");
 const resultElement = document.getElementById("result");
 
@@ -101,9 +127,19 @@ let score = 0;
 function loadQuestion() {
     const currentQuestion = quizData[currentQuestionIndex];
     questionElement.textContent = currentQuestion.question;
-    optionsElement.innerHTML = "";
 
-    currentQuestion.options.forEach((option) => {
+    if (currentQuestion.type === "multiple_choice") {
+        showMultipleChoiceOptions(currentQuestion);
+    } else if (currentQuestion.type === "text") {
+        showTextInput();
+    }
+}
+
+function showMultipleChoiceOptions(question) {
+    answerInput.style.display = "none";
+    const optionsElement = document.createElement("div");
+    optionsElement.id = "options";
+    question.options.forEach((option) => {
         const optionElement = document.createElement("div");
         optionElement.className = "option";
         optionElement.textContent = option;
@@ -112,6 +148,15 @@ function loadQuestion() {
         });
         optionsElement.appendChild(optionElement);
     });
+    quizContainer.appendChild(optionsElement);
+}
+
+function showTextInput() {
+    const optionsElement = document.getElementById("options");
+    if (optionsElement) {
+        optionsElement.remove();
+    }
+    answerInput.style.display = "block";
 }
 
 function checkAnswer(answer) {
@@ -136,7 +181,16 @@ function showResult() {
     resultElement.textContent = `Your score: ${score} out of ${quizData.length}`;
 }
 
+submitButton.addEventListener("click", () => {
+    const currentQuestion = quizData[currentQuestionIndex];
+    if (currentQuestion.type === "text") {
+        const userAnswer = answerInput.value.trim();
+        checkAnswer(userAnswer);
+    }
+});
+
 loadQuestion();
+
 </script>
         
 		<div class="footer"> 
