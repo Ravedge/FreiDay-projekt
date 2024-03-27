@@ -394,87 +394,35 @@ p{
 
 /*quiz start*/
 
-#quiz ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+#quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-#quiz li {
-	margin: 0;
-	padding: 0;
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
 }
 
-#quiz label {
-	display: block;
-	background-color: #fffbf0;
-	border: 2px solid #e7c157;
-	border-radius: 0.2em;
-	margin: 0.1em 0;
-	padding: 1em 2em;
-	text-align: start;
-	max-width: 33em;
+#options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-#quiz label:hover {
-	background-color: #685d5d;
+.option {
+    margin-bottom: 10px;
 }
 
-#quiz input:checked ~ label,
-#quiz input:focus ~ label {
-	background-color: #ffffff;
-	border-color: #000000;
+#submit {
+    margin-top: 20px;
 }
 
-#quiz input {
-	left: -9999px;
-	position: absolute;
+#result {
+    margin-top: 20px;
+    font-weight: bold;
 }
-
-#quiz button:not(.startBtn) {
-	display: none;
-}
-
-#quiz button,
-#quiz label {
-	cursor: pointer;
-}
-/* listing with solutions */
-
-.question {
-	font-weight: bold;
-}
-
-.correct {
-	color: #0c0;
-}
-
-.wrong {
-	color: #c00;
-}
-
-.correct:before {
-	content: '✓';
-	color: #0d0;
-}
-
-.wrong:before {
-	content: '✗';
-	color: #f00;
-}
-
-.correct:before,
-.wrong:before {
-	font: 2em bold;
-	padding: 0 0.2em;
-}
-
-#scores,
-#scores td,
-#scores th {
-	border: thin solid black;
-	border-collapse: collapse;
-	text-align: center;
 }
 /*quiz ende*/@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
