@@ -72,8 +72,8 @@
     <button id="submit">Submit</button>
     <p id="result"></p>
     <div id="quiz-end">
-        <button id="play-again" style="display: none;">Play Again</button>
-        <button id="go-to-other-page" style="display: none;">Go to Other Page</button>
+        <button id="play-again" style="display: none;">Nochmal</button>
+        <button id="go-to-other-page" style="display: none;">Zurück zur Ersten Klasse</button>
     </div>
 </div>
 
@@ -118,6 +118,7 @@ function loadQuestion() {
 
 function showMultipleChoiceOptions(question) {
     answerInput.style.display = "none";
+    submitButton.style.display = "none"; // Verstecke den Submit-Button
     const optionsElement = document.createElement("div");
     optionsElement.id = "options";
     question.options.forEach((option) => {
@@ -144,6 +145,7 @@ function showTextInput() {
         optionsElement.remove();
     }
     answerInput.style.display = "block";
+    submitButton.style.display = "block"; // Zeige den Submit-Button
 }
 
 function checkAnswer(answer) {
@@ -177,7 +179,7 @@ function showEndOfQuizOptions() {
 
     goToOtherPageButton.addEventListener("click", () => {
         // Hier kannst du die URL der anderen Seite angeben
-        window.location.href = "other-page.html";
+        window.location.href = "1klasse.html";
     });
 }
 
