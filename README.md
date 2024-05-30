@@ -2,7 +2,7 @@
 
 <li>Leopold: Kontakt, Home, Grundschule, normalLernenGrund.html, Deutsche Fassung, Quiz, reinschreiben,das ein Nutella salami Brot gegen die Naturgesetze verstößt</li>
 
-<li>Haya: Suche, Englische Fassung, suche.css, Struktur, Frontpage</li>
+<li>Haya: Suche, Englische Fassung, suche.css, Struktur, Frontpage, Datenbank</li>
 
 <li>Caitlin: Kinder, Weiterführende, Deutsche Fassung</li>
 
