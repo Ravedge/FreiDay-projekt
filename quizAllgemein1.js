@@ -72,37 +72,104 @@ var myQuiz = {
 	currentQuestion: null,
 	// data could be filled from an external source (JSON)
 	data: [{
-		category: 'Addition',
-		question: '3+4=',
-		solution: '7',
-		falses: ['8',
-			'5',
-			'9'],
-		explanation: 'Wenn man vier Finger vor die Augen hält und drei dazu nimmt und sie dann zählt, hat man sieben finger oben.'
+		category: 'Grundwissen Deutschland',
+		question: 'Wie viele Bundesländer hat Deutschland?',
+		solution: '16',
+		falses: ['14',
+			'17',
+			'15'],
+		explanation: 'Schleswig Holstein, Niedersachsen, Nordrhein-Westfalen, Bayern, Hessen, Hamburg, Bremen, Berlin, Thüringen, Sachsen, Sachsen-Anhalt, Brandenburg, Mecklenburg-Vorpommern, Saarland, Rheinland-Pfalz, Baden- Württemberg.'
 	}, {
-     		category: 'Deutsch Wortarten',
-		question: 'Was hiervon ist ein Verb (Tu-Wort)',
-		solution: 'gehen,
-		falses: ['oben',
-			'Dach',
-			'Die'],
-		explanation: 'Verben (Tu wörter) sind wörter die eine Handlung beschreiben, wie zum beispiel gehen'
+     		category: 'Grundwissen Deutschland',
+		question: 'Welches der folgenden Bundesländer grenzt NICHT an Bayern?',
+		solution: 'Sachsen-Anhalt,
+		falses: ['Hessen',
+			'Sachsen'],
+		explanation: 'Karte'
 	}, { 
-		category: 'Zahlenreihe',
-		question: 'Verfollständige: 1,3,...,7,9',
-		solution: '5',
-		falses: ['4',
-                '6',
-                 '8']
-		explanation: '1,3,7 und 9 sind ungerade Zahlen, und fünf ist die ungerade zahl die zwischen 3 und 7 steht.'
+		category: 'Grundwissen Deutschland',
+		question: 'Welches ist das zweitgrößte Bundesland Deutschlands?',
+		solution: 'Niedersachsen',
+		falses: ['Baden-Württemberg',
+                'Nordrhein-Westfalen']
+		explanation: 'Karte'
 	}, {
-		category: 'Subtraktion',
-		question: '13-6=',
-		solution: '7',
+		category: 'Grundwissen Deutschland',
+		question: 'Welches Bundesland hat die meisten Einwohner?',
+		solution: 'Nordrhein-Westfalen',
+		falses: ['Bayern',
+			'Niedersachsen'],
+		explanation: 'Karte'
+	}, {
+		category: 'Grundwissen Deutschland',
+		question: 'Wie viele Menschen leben etwa in Deutschland? (Stand Mai 2024)',
+		solution: '86.629.401',
+		falses: ['83.007.182',
+			'84.629.401','85.947.291'],
+		explanation: 'Karte'
+	}, {
+		category: 'Grundwissen Internationale Politik',
+		question: 'Wofür steht NATO?',
+		solution: 'Nirth Atlantic Treaty Organisation',
+		falses: ['Northern Atlantic Trading Organisation',
+			'North Atlantic Trading Organisation','Northern Atlantic Territory Organisation'],
+		explanation: ''
+	}, {
+		category: 'Grundwissen Internationale Politik',
+		question: 'Wie viele Staaten sind Mitglieder in der EU?(Stand Mai 2024)',
+		solution: '27',
+		falses: ['32',
+			'25','29'],
+		explanation: 'Mitgliedsstaaten'
+	}, {
+		category: 'Grundwissen Internationale Politik',
+		question: 'Wann war der Brexit?',
+		solution: '2020',
+		falses: ['2011',
+			'2019','2021'],
+		explanation: ''
+	}, {
+		category: 'Grundwissen Internationale Politik',
+		question: 'Wer ist stand 2023 im EU-Parlament Kommisions Präsident/-in',
+		solution: 'Ursula von der Leyen',
+		falses: ['José Manuel Barroso',
+			'Romano Prodi','Jean-Claude Juncker'],
+		explanation: ''
+	}, {
+		category: 'Grundwissen Internationale Politik',
+		question: 'Wo sitzt das EU-Parlament?(ein standort reicht)',
+		solution: 'Brüssel','Luxemburg',
+		falses: ['Berlin',
+			'Weimar'],
+		explanation: ''
+	}, {
+		category: 'Geographisches in Deutschland',
+		question: 'Wie heißt das Zweitgrößte Gebirge in Deutschland?',
+		solution: 'Der Schwarzwald',
+		falses: ['Der Harz',
+			'Die Alpen','Der Bayrische Wald'],
+		explanation: ''
+	}, {
+		category: 'Geographisches in Deutschland',
+		question: 'Wo liegt der Schwarzwald?',
+		solution: 'Im Südwesten Deutschlands, größtenteils Baden-Württemberg',
+		falses: ['im Südosten Deutschlands, größtenteils in Bayern',
+			'Zwischen Baden- Württemberg und Hessen','Zwischen Baden- Württemberg und Hessen'],
+		explanation: 'Karte'
+	}, {
+		category: 'Geographisches in Deutschland',
+		question: 'Wie viele Hallingen gehören zu Deutschland?',
+		solution: '9',
 		falses: ['10',
-			'19',
-			'3'],
-		explanation: 'Bis 10 werden schon 3 abgezogen wodurch man dann noch 3 von 10 abziehen muss.'
+			'11'],
+		explanation: ''
+	}, {
+		category: 'Geographisches in Deutschland',
+		question: 'Welches Bundesland hat direkten Zugang zu Nord und Ostsee',
+		solution: 'Schleswig Holstein',
+		falses: ['Mecklenburg Vorpommern',
+			'Niedersachsen'],
+		explanation: ''
 	},
 	emptyContainer: function () {
 		var t = this;
