@@ -21,6 +21,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    background-attachment: fixed;
 }
 .intro{
     padding: 6rem;
@@ -121,6 +122,7 @@ body::-webkit-scrollbar{
     background: transparent;
     position: relative;
     cursor: pointer;
+    font-family: var(--Fredoka);
 }
 .hero-btn:hover{
     border: 1px solid #b692c7;
@@ -192,35 +194,31 @@ p{
     display: flex;
     justify-content: space-between;
 }
+
+.course-col1,
+.course-col2,
+.course-col3{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    text-decoration: none;
+}
 .course-col1 {
     flex-basis: 31%;
     background: #796581;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
+    
 }
 .course-col2 {
-    flex-basis: 31%;
     background: #6b978c;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
 }
 .course-col3 {
-    flex-basis: 31%;
     background-color: #5a7285; /* Just for visualization */
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
 }
 .course-col1 h3,
 .course-col2 h3,
@@ -242,7 +240,7 @@ p{
 .course-col2:hover,
 .course-col3:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
-    text-decoration: none;
+    text-decoration: purple;
 }
 
 /*über uns*/
@@ -324,432 +322,7 @@ p{
     width: 100%;
     text-align: center;
     padding: 30px 0;
-}
-
-.footer h4{
-    margin-top: 25px;
-    margin-bottom: 20px;
-    font-weight: 600;
-}
-
-.icons{
-    padding: 18px 0;
-    color: #b692c7;
-    cursor: pointer;
-    margin: 0 13px;
-    justify-content: space-between;
-}
-.fa-heart{
-    color:#b692c7;
-    font-size: 13px;
-}
-
-
-/*sub-header*/
-
-.sub-header{
-    height: 50vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://wallpapers.com/images/hd/yellow-fairy-hd-lights-8ws597bidpmaqs3z.jpg);
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    color: white;
-    font-family: var(--Fredoka);
-}
-.sub-header h1{
-    margin-top: 100px;
-}
-
-.über-uns{
-    width: 80%;
-    margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
-}
-
-.about-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
-}
-.about-col img{
-    width: 100%;
-}
-.about-col h1{
-    padding-top: 0;
-}
-.about-col p{
-    padding: 15px 0 25px;
-}
-.purple-btn{
-    border: 1px solid #b692c7;
-    background: transparent;
-    color: #b692c7;
-    position: absolute;
-}
-.über-uns p{
-    font-family: var(--Fredoka);
-}
-
-
-/*quiz start*/
-
-#quiz-container {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-#question {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-#options {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.option {
-    margin-bottom: 10px;
-}
-
-#submit {
-    margin-top: 20px;
-}
-
-#result {
-    margin-top: 20px;
-    font-weight: bold;
-}
-}
-/*quiz ende*/@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Playfair+Display:ital,wght@1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredoka:wght@300..700&display=swap');
-@import url(css/bootstrap.css);
-:root{
-    --Playfair: "Playfair Display", serif;
-    --Monserrat: "Monserrat", sans-serif;
-    --Roboto: "Roboto" sans-serif;
-    --dark: #3c393d;
-    --exDark: darkgray;
-    padding: 0;
-    margin: 0;
-    --Neonderthaw: "Neonderthaw", cursive;
-    --Fredoka: "Fredoka", cursive;
-}
-
-.top{
-    min-height: 100vh;
-    min-width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(https://images.pexels.com/photos/4219040/pexels-photo-4219040.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-.intro{
-    padding: 6rem;
-    font-family: var(--Fredoka);
-    font-size: 2.4rem;
-    text-align: left;
-    padding-left: 9vh;
-}
-.intro h5{
-    padding-left: 20vh;
-}
-/*searchbar*/
-
-
-
-/*the navbar + the whole sign up and motto screen*/
-nav{
-    display: flex;
-    padding: 2% 6%;
-    justify-content: space-between;
-    align-items: center;
-}
-.Logo{
-    width: 25%;
-    height: 25%;
-}
-img{
-    width: 100%;
-    display: block;
-}
-.nav-links{
-    flex: 1;
-    text-align: right;
-}
-.nav-links ul li{
-    padding-top: 6vh;
-    list-style: none;
-    display: inline-block;
-    padding: 10px 14px;
-    position: relative;
-    font-family: var(--Fredoka);
-}
-.nav-links ul li a{
-    color: white;
-    text-decoration: dotted;
-    font-size: 14px;
-    font-family: var(--Fredoka);
-}
-.nav-links ul li::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background: #b692c7;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-.nav-links ul li:hover::after{
-    width: 100%;
-}
-body{
-    line-height:1.4;
-    color: var(--dark);
-    overflow-y: scroll;
-}
-body::-webkit-scrollbar{
-    display: none;
-}
-.text-box{
-    width: 90%;
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-    font-family: var(--Fredoka);
-}
-.text-box h1{
-    font-size: 62px;
-}
-.text-box p{
-    margin: 10px 0 40px;
-    font-size: 14px;
-    color: white;
-    font-family: var(--Fredoka);
-}
-
-/*the sign up button*/
-
-.hero-btn{
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    border: 1px solid white;
-    padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
-    position: relative;
-    cursor: pointer;
-}
-.hero-btn:hover{
-    border: 1px solid #b692c7;
-    background: #b692c7;
-    transition: 1s;
-    text-decoration: none;
-    color: white;
-}
-nav .fa{
-    display: none;
-}
-
-@media(max-width: 700px){
-    .text-box h1{
-        font-size: 20px;
-    }
-    .nav-links{
-        position: absolute;
-        background: #b692c7;
-        height: 100vh;
-        width: 200px;
-        top: 0;
-        right: -200px;
-        text-align: left;
-        z-index: 2;
-        transition: 1s;
-    }
-    nav .fa{
-        display: block;
-        color: white;
-        font-size: 22px;
-        margin: 10px;
-        cursor: pointer;
-    }
-    .nav-links ul{
-        padding: 30px;
-    }
-    .row{
-        flex-direction: column;
-    }
-    .cta h1{
-        font-size: 24px;
-    }
-}
-/*kurse*/
-.Kurse{
-    font-family: var(--Fredoka);
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-
-}
-h1{
-    font-size: 36px;
-    font-weight: 600;
-    text-align: center;
-}
-
-p{
-    color: rgb(126, 126, 126);
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-}
-.row{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.course-col1 {
-    flex-basis: 31%;
-    background: #796581;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
-}
-.course-col2 {
-    flex-basis: 31%;
-    background: #6b978c;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
-}
-.course-col3 {
-    flex-basis: 31%;
-    background-color: #5a7285; /* Just for visualization */
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-    text-decoration: none;
-}
-.course-col1 h3,
-.course-col2 h3,
-.course-col3 h3 {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.course-col1 p,
-.course-col2 p,
-.course-col3 p {
-    color: rgb(255, 255, 255);
-    font-size: 18px;
-    text-decoration: none;
-}
-
-.course-col1:hover,
-.course-col2:hover,
-.course-col3:hover {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.5);
-    text-decoration: none;
-}
-
-/*über uns*/
-
-.überuns{
-    font-family: var(--Fredoka);
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.überuns-col1,
-.überuns-col2,
-.überuns-col3{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;
-}
-.überuns-col1 img,
-.überuns-col2 img,
-.überuns-col3 img{
-    width: 100%;
-    display: block;
-}
-.layer{
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
-}
-.layer:hover{
-    background: #b692c7c2;
-
-}
-.layer h3{
-    opacity: 0;
-    width: 100%;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    font-size: 26px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    position: absolute;
-    transition: 0.5s;
-}
-.layer:hover h3{
-    bottom: 49%;
-    opacity: 1;
-}
-
-/*call to action*/
-
-.cta{
-    margin: 100px auto;
-    width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://devostock.com/static12/preview2/stock-photo-devostock-education-school-library-students-blur-open-book-4k-175984.jpg);
-    background-position: center;
-    background-size: cover;
-    border-radius: 10px;
-    text-align: center;
-    padding: 100px 0;
-}
-.cta h1{
-    font-family: var(--Fredoka);
-    color: white;
-    margin-bottom: 40px;
-    padding: 2px;
-}
-
-/* footer */
-
-.footer{
-    width: 100%;
-    text-align: center;
-    padding: 30px 0;
+    background-color: white;
 }
 
 .footer h4{
